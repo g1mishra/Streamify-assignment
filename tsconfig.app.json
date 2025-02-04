@@ -21,7 +21,9 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    "composite": true,
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["src", "./jest.setup.ts"]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "./jest.setup.ts"]
 }
